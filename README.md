@@ -3,8 +3,15 @@
 This guide shows you how to convert HTML to PDF using Python with `pdfkit` and `wkhtmltopdf` on Windows.
 
 ---
+##  ✅ 
+Create virtual environment Open terminal, go to your project folder 
 
-## ✅ Step 1: Download and Install `wkhtmltopdf`
+Create virtual environment: python -m venv venv
+
+Activate it (on Windows): venv\Scripts\activate 
+
+
+## ✅ Step 2: Download and Install `wkhtmltopdf`
 
 1. Go to the official download page:  
    👉 [https://wkhtmltopdf.org/downloads.html](https://wkhtmltopdf.org/downloads.html)
@@ -36,13 +43,13 @@ Restart your System:
 wkhtmltopdf --version
 
 
-✅ Step 2: Install Python pdfkit
+✅ Step 3: Install Python pdfkit
 Run this in your terminal or command prompt:
 
 pip install pdfkit
 
 
-✅ Step 3: Sample Python Code
+✅ Step 4: Sample Python Code
 
 import pdfkit
 
